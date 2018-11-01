@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:18:1-46:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/be2f90e4d3f61e47a49543f0d5fb8acc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/130ec4fc10db298239b65879411e3373/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/eb505bdb6e8765f279b14a8ae9303207/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/3586c46959b6e3ff54bff87f8df843c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9fe2267f6f00b9a0bc495de6238b0fe6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/209f50c4f05f790de1dbee5a13262a2e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/9f286c891d68310aa4610b5f99e26ee6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/b720081166d1a14d4d00afd5d027ebd4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/aadfe7bc8f7f451efe3c5c216c01a76c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/474f184811944d21fed50f3e0b2dc6e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/dbb3ad532710448c402104f4e50c59bb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/webwerks/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/01ff307c137d8f52c59de978489e2832/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:19:5-47
+	xmlns:android
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:24:22-78
+application
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:26:5-44:19
+	android:label
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:28:9-41
+	android:icon
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:27:9-45
+	android:theme
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:29:9-40
+activity#com.example.android.jobscheduler.MainActivity
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:30:9-38:20
+	android:label
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:32:13-45
+	android:windowSoftInputMode
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:33:13-54
+	android:name
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:31:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:36:27-74
+service#com.example.android.jobscheduler.service.MyJobService
+ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:40:9-43:38
+	android:exported
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:42:13-69
+	android:name
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml:41:13-49
+uses-sdk
+INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/be2f90e4d3f61e47a49543f0d5fb8acc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/be2f90e4d3f61e47a49543f0d5fb8acc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/130ec4fc10db298239b65879411e3373/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/130ec4fc10db298239b65879411e3373/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/eb505bdb6e8765f279b14a8ae9303207/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/eb505bdb6e8765f279b14a8ae9303207/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/3586c46959b6e3ff54bff87f8df843c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/3586c46959b6e3ff54bff87f8df843c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9fe2267f6f00b9a0bc495de6238b0fe6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9fe2267f6f00b9a0bc495de6238b0fe6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/209f50c4f05f790de1dbee5a13262a2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/209f50c4f05f790de1dbee5a13262a2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/9f286c891d68310aa4610b5f99e26ee6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/9f286c891d68310aa4610b5f99e26ee6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/b720081166d1a14d4d00afd5d027ebd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/b720081166d1a14d4d00afd5d027ebd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/aadfe7bc8f7f451efe3c5c216c01a76c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/aadfe7bc8f7f451efe3c5c216c01a76c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/474f184811944d21fed50f3e0b2dc6e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/474f184811944d21fed50f3e0b2dc6e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/dbb3ad532710448c402104f4e50c59bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/webwerks/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/dbb3ad532710448c402104f4e50c59bb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/webwerks/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/01ff307c137d8f52c59de978489e2832/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/webwerks/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/01ff307c137d8f52c59de978489e2832/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+		ADDED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/webwerks/Desktop/android-JobScheduler-master/Application/src/main/AndroidManifest.xml
